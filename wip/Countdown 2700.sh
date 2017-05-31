@@ -1,0 +1,1 @@
+sleep 2700 && say "ok. pause" 

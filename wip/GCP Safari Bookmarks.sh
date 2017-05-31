@@ -1,0 +1,1 @@
+google docs upload "/Users/macbookcolor/Library/Safari/Bookmarks.plist" --folder "I.T." --format txt

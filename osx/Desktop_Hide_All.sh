@@ -1,0 +1,2 @@
+chflags hidden ~/Desktop/*
+exit

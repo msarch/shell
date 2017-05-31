@@ -1,0 +1,6 @@
+time_stamp=$(date +%Y%m%d)
+rsync -avE /Volumes/notebook/* /Volumes/M/notebook/"$time_stamp"/
+rsync -avE /Volumes/notebooki/* /Volumes/M/notebooki/"$time_stamp"/
+rsync -avE /Volumes/colorbinders/* /Volumes/M/colorbinders/"$time_stamp"/
+echo "backup done"
+

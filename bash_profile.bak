@@ -1,0 +1,43 @@
+SCRIPTS_HOME="/Users/MS/Drive/resources/Shell"
+export PATH=$PATH:$SCRIPTS_HOME
+
+SCRIPTS_HOME2="/Users/MS/Drive/resources/Shell/osx"
+export PATH=$PATH:$SCRIPTS_HOME2
+
+SCRIPTS_HOME3="/Users/MS/Drive/resources/Shell/www"
+export PATH=$PATH:$SCRIPTS_HOME3
+
+SCRIPTS_HOME4="/Users/MS/Drive/resources/Shell/tools"
+export PATH=$PATH:$SCRIPTS_HOME4
+
+# this line to use homebrew git and not apple genuine git
+export PATH="$(brew --prefix git)/bin:$PATH"
+
+#PYTHONPATH="/Me/Documents/mydir:$PYTHONPATH"
+#export PYTHONPATH
+
+# SVN needs a text editor
+export SVN_EDITOR=vim
+
+##
+# Your previous /Users/MS/.bash_profile file was backed up as /Users/MS/.bash_profile.macports-saved_2013-11-12_at_23:16:40
+##
+
+# MacPorts Installer addition on 2013-11-12_at_23:16:40: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+##
+# Your previous /Users/MS/.bash_profile file was backed up as /Users/MS/.bash_profile.macports-saved_2016-03-22_at_14:51:54
+##
+
+# MacPorts Installer addition on 2016-03-22_at_14:51:54: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+# Setting PATH for Python 2.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH

@@ -10,3 +10,6 @@ echo "scale=2;
              hypothenuse= sqrt(($hauteur^2)+($base^2));
              hypothenuse"\
           | bc
+echo "hit return key to exit"
+read q
+

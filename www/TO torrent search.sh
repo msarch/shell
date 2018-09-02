@@ -16,16 +16,21 @@ fi
 BROWSER="Safari"
 
 echo "searching torrents for" "'$QUERY'"
+
+#2018
+open -a $BROWSER "https://www2.torrents9.cc/search_torrent/$QUERY.html"
 # 2017
 open -a $BROWSER "https://zooqle.com/search?q=$QUERY"
-open -a $BROWSER "hhttp://www.zetorrents.com/torrents/find/title:$QUERY"
+open -a $BROWSER "http://www.zetorrents.com/torrents/find/title:$QUERY"
 # 2015
 
 # 2014
-open -a $BROWSER "http://demonoid.pw/files/?category=0&subcategory=All&quality=All&seeded=0&external=2&query=$QUERY&uid=0&sort="
+#open -a $BROWSER "http://demonoid.pw/files/?category=0&subcategory=All&quality=All&seeded=0&external=2&query=$QUERY&uid=0&sort="
 open -a $BROWSER "http://rutracker.org/forum/index.php"
 open -a $BROWSER "http://www.torrents.me/search/web/$QUERY"
 open -a $BROWSER "https://rarbg.to/torrents.php?search=$QUERY"
+#open -a $BROWSER "https://arenabg.ch/"
+open -a $BROWSER "https://www.limetorrents.cc/search/all/$QUERY/"
 # DEAD LINKS
 #open -a $#BROWSER "https://kat.cr/usearch/$QUERY/"
 #open -a $BROWSER "http://1337x.to/search/$QUERY/1/"
